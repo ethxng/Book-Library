@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript</title>
+        <script src="script.js" defer> </script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="top">
+            <div id='intro'>Welcome to your library
+                <p><button id="add" onclick="openForm()">Add book</button></p>
+            </div>
+        </div>
+        <p class="popUp">
+            Add new book
+            <br><br>
+            Title:
+            <input type="text" id="title" placeholder="Title" for="title"><br><br>
+            Author:
+            <input type="text" id="author" placeholder="Author" for="author"><br><br>
+            Pages:
+            <input type="number" id="pages" placeholder="Pages" for="pages"><br><br>
+            Have you read it?
+            <input type="checkbox" id="read" for="haveRead"><br><br>
+            <button id="submit">Submit</button>
+            <button id="close" onclick="closeForm()">Close</button>
+        </p>
+        <div class="box">
+            <!---
+            <div id='one'></div>
+            <div id='two'></div>
+            <div id="three"></div>
+            <div id='four'></div>
+            <div id='five'></div/>-->
+        </div>
+    </body>
+</html>
